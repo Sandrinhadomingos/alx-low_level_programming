@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    int r;
+    int r = 9;
 
     print_last_digit(98);
     print_last_digit(0);
