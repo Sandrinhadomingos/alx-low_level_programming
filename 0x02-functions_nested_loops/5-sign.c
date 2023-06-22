@@ -28,10 +28,8 @@ int print_sign(int n)
 }
 
 
-int main(void)
-{
-  int number = 10;
-  int result = print_sign(number);
-  printf("The sign of %d is %d\n", number, result);
-  return 0;
+int main(void) {
+    int r = 9;
+    _putchar(r + '0');
+    return (0);
 }
