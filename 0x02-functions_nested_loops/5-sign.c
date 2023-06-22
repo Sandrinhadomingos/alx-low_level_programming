@@ -8,28 +8,26 @@
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
  */
-void print_sign(int n)
+int print_sign(int n)
 {
-  if (n > 0)
-  {
-    putchar('+');
-    return 1;
-  }
-  else if (n == 0)
-  {
-    putchar('0');
-    return 0;
-  }
-  else
-  {
-    putchar('-');
-    return -1;
-  }
+	if (n > 0)
+	{
+		putchar('+');
+		return (1);
+	} else if (n == 0)
+}
+		putchar(48);
+		return (0);
+	} else if (n < 0)
+	{
+		putchar('-');
+	}
+		return (-1);
 }
 
 
 int main(void) {
     int r = 9;
-    _putchar(r + '0');
+    putchar(r + '0');
     return (0);
 }
