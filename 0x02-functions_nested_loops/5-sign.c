@@ -25,9 +25,3 @@ int print_sign(int n)
 		return (-1);
 }
 
-
-int main(void) {
-    int r = 9;
-    putchar(r + '0');
-    return (0);
-}
